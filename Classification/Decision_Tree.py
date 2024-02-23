@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 print("DecisionTrees's Accuracy: ", metrics.accuracy_score(y_testset, predTree))
 
 tree.plot_tree(drugTree) # the values are the amount of elementsdata with the target label
-print(drugTree.tree_.value)
+print(drugTree.tree_.label)
 plt.show()
 
 #tree.plot_tree(predTree)
